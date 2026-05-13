@@ -1,0 +1,65 @@
+{
+  "name": "God of Java Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "000000",
+    "sideBar.background": "#3b0000",
+    "sideBar.border": "#4B0000",
+    "statusBar.background": "#8B0000",
+    "statusBar.foreground": "#FFFFFF",
+    "tab.activeBackground": "#4B0000",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveBackground": "#1A1A1A",
+    "editorLineNumber.foreground": "#666666",
+    "editorLineNumber.activeForeground": "#000000",
+    "editor.selectionBackground": "#00000044",
+    "editor.lineHighlightBackground": "#00000011"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords (if, let, const, class)",
+      "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Funciones y Métodos",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#E0E0E0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Strings (Textos)",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#999999"
+      }
+    },
+    {
+      "name": "Comentarios",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#550000",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "variable.parameter"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Números",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#FF4444"
+      }
+    }
+  ]
+}

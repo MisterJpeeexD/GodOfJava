@@ -1,0 +1,25 @@
+{
+	"name": "god-of-java-theme",
+	"displayName": "God of Java Theme",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "God of Java Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kratos.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1778621051042,
+		"targetPlatform": "undefined",
+		"size": 3414
+	}
+}
